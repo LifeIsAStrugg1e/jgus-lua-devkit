@@ -1,0 +1,22 @@
+# ===== 工作区/工具数据(个人数据,勿上传) =====
+.workbuddy/
+.opencode/
+
+# ===== 与本仓库无关的个人文件 =====
+bank_reports/
+
+# ===== 厂商版权文档(即使私有仓库也不建议上传) =====
+doc/晶兴Modbus开发指南V1.0.pdf
+# 厂商屏幕固件包(可由厂商上位机重新生成)
+*.app
+
+# ===== 生成物(克隆后可由 doc/make_ai_txt.ps1 再生) =====
+doc/AI开发手册.txt
+
+# ===== 系统与编辑器垃圾文件 =====
+*.pyc
+__pycache__/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
